@@ -1,4 +1,4 @@
-getPrime(unsigned int n)
+unsigned int getPrime(unsigned int n)
 {
 	int k = 0;
 	int i = 1;
