@@ -7,7 +7,7 @@ getPrime(unsigned int n)
 	while (k != n)
 	{
 		flag = true;
-		i = 2;
+		i++;
 		for (int j = 2; j * j <=i; j++)
 			if (i % j == 0)
 			{
@@ -15,9 +15,10 @@ getPrime(unsigned int n)
 				break;
 			}
 		if (flag == true)
+		{
 			k++;
 			ans = i;
-		i++;
+		}
 	}
 	return i;
 
