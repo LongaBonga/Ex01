@@ -1,7 +1,7 @@
 getPrime(unsigned int n)
 {
 	int k = 0;
-	int i = 1;
+	int i = 0;
 	bool flag = true;
 	int ans = 0;
 	while (k != n)
